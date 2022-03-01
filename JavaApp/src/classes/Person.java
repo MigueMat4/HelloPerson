@@ -10,5 +10,13 @@ package classes;
  * @author migu_
  */
 public class Person {
-    
+    public Integer age;
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
 }
